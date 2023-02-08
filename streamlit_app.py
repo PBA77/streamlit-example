@@ -1,3 +1,6 @@
 import streamlit as st
 
-st.write('Hello, %s!' % st.experimental_user.email)
+if st.experimental_user.email:
+    st.write('Hello, %s!' % st.experimental_user.email)
+else:
+    st.write('Hello, unauthorized!')
