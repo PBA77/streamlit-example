@@ -1,3 +1,3 @@
 import streamlit as st
 
-st.write('Hello, %s!' % st.experimental_user)
+st.write('Hello, %s!' % st.experimental_user.)
